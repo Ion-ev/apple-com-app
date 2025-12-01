@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Snow from "./components/Snow";
 
 export const metadata: Metadata = {
   title: "Apple",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Snow />
+      </body>
     </html>
   );
 }

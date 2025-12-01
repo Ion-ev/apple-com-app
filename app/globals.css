@@ -1305,24 +1305,24 @@ html.globalmessage-segment-visible { --r-globalmessage-segment-height: 40px; --r
 html:not([dir="rtl"]) #globalheader { --r-globalheader-start: var(--r-sk-start, left); --r-globalheader-end: var(--r-sk-end, right); --r-globalheader-safe-area-inset-start: var(--r-sk-safe-area-inset-start, env(safe-area-inset-left)); --r-globalheader-safe-area-inset-end: var(--r-sk-safe-area-inset-end, env(safe-area-inset-right)); }
 html[dir="rtl"] #globalheader { --r-globalheader-start: var(--r-sk-start, right); --r-globalheader-end: var(--r-sk-end, left); --r-globalheader-safe-area-inset-start: var(--r-sk-safe-area-inset-start, env(safe-area-inset-right)); --r-globalheader-safe-area-inset-end: var(--r-sk-safe-area-inset-end, env(safe-area-inset-left)); }
 
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 100; src: local(""), url("../assets/ac-footer/legacy/appleicons_ultralight.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_ultralight.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 100"; src: url("../assets/ac-footer/legacy/appleicons_ultralight.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 200; src: local(""), url("../assets/ac-footer/legacy/appleicons_thin.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_thin.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 200"; src: url("../assets/ac-footer/legacy/appleicons_thin.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 300; src: local(""), url("../assets/ac-footer/legacy/appleicons_thin.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_thin.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 300"; src: url("../assets/ac-footer/legacy/appleicons_thin.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 400; src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 400"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 500; src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 500"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 600; src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 600"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 700; src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 700"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 800; src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 800"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); }
-@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 900; src: local(""), url("../assets/ac-footer/legacy/appleicons_text.woff") format("woff"), url("../assets/ac-footer/legacy/appleicons_text.ttf") format("truetype"); }
-@font-face { font-family: "Apple Icons 900"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); }
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 100; src: local(""); }
+/* @font-face { font-family: "Apple Icons 100"; src: url("../assets/ac-footer/legacy/appleicons_ultralight.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 200; src: local(""); }
+/* @font-face { font-family: "Apple Icons 200"; src: url("../assets/ac-footer/legacy/appleicons_thin.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 300; src: local(""); }
+/* @font-face { font-family: "Apple Icons 300"; src: url("../assets/ac-footer/legacy/appleicons_thin.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 400; src: local(""); }
+/* @font-face { font-family: "Apple Icons 400"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 500; src: local(""); }
+/* @font-face { font-family: "Apple Icons 500"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 600; src: local(""); }
+/* @font-face { font-family: "Apple Icons 600"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 700; src: local(""); }
+/* @font-face { font-family: "Apple Icons 700"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 800; src: local(""); }
+/* @font-face { font-family: "Apple Icons 800"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); } */
+@font-face { font-family: "Apple Legacy Chevron"; font-style: normal; font-weight: 900; src: local(""); }
+/* @font-face { font-family: "Apple Icons 900"; src: url("../assets/ac-footer/legacy/appleicons_text.eot"); } */
 #ac-globalfooter { --gf-focus-color: var(--sk-focus-color, #0071E3); --gf-focus-color-alt: var(--sk-focus-color-alt, rgb(0, 0, 0)); --gf-focus-offset: var(--sk-focus-offset, 1px); --gf-focus-offset-container: var(--sk-focus-offset-container, 3px); }
 #ac-globalfooter { font-weight: normal; text-size-adjust: 100%; }
 #ac-globalfooter, #ac-globalfooter::before, #ac-globalfooter::after, #ac-globalfooter *, #ac-globalfooter ::before, #ac-globalfooter ::after { box-sizing: content-box; margin: 0px; padding: 0px; float: initial; pointer-events: auto; letter-spacing: normal; }
@@ -1493,48 +1493,48 @@ ac-globalfooter-dark #ac-globalfooter { --gf-focus-color-alt: var(--sk-focus-col
 }
 #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon { margin: 0px auto; height: 56px; color: var(--buystrip-icon-color); opacity: 0.56; }
 #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon svg { width: auto; height: 100%; }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/appletvplus/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus { --buystrip-item-background-image: url(../assets/ac-buystrip/appletvplus/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus { --buystrip-item-background-image: url(../assets/ac-buystrip/appletvplus/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/asa/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa { --buystrip-item-background-image: url(../assets/ac-buystrip/asa/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa { --buystrip-item-background-image: url(../assets/ac-buystrip/asa/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/bag/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag { --buystrip-item-background-image: url(../assets/ac-buystrip/bag/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag { --buystrip-item-background-image: url(../assets/ac-buystrip/bag/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/call/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call { --buystrip-item-background-image: url(../assets/ac-buystrip/call/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call { --buystrip-item-background-image: url(../assets/ac-buystrip/call/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/engraving/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving { --buystrip-item-background-image: url(../assets/ac-buystrip/engraving/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving { --buystrip-item-background-image: url(../assets/ac-buystrip/engraving/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/financing/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing { --buystrip-item-background-image: url(../assets/ac-buystrip/financing/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing { --buystrip-item-background-image: url(../assets/ac-buystrip/financing/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/giftwrap/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap { --buystrip-item-background-image: url(../assets/ac-buystrip/giftwrap/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap { --buystrip-item-background-image: url(../assets/ac-buystrip/giftwrap/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/help/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help { --buystrip-item-background-image: url(../assets/ac-buystrip/help/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help { --buystrip-item-background-image: url(../assets/ac-buystrip/help/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/homekit/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit { --buystrip-item-background-image: url(../assets/ac-buystrip/homekit/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit { --buystrip-item-background-image: url(../assets/ac-buystrip/homekit/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/learning/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning { --buystrip-item-background-image: url(../assets/ac-buystrip/learning/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning { --buystrip-item-background-image: url(../assets/ac-buystrip/learning/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/personal_setup/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup { --buystrip-item-background-image: url(../assets/ac-buystrip/personal_setup/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup { --buystrip-item-background-image: url(../assets/ac-buystrip/personal_setup/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/retail/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail { --buystrip-item-background-image: url(../assets/ac-buystrip/retail/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail { --buystrip-item-background-image: url(../assets/ac-buystrip/retail/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/shipping/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping { --buystrip-item-background-image: url(../assets/ac-buystrip/shipping/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping { --buystrip-item-background-image: url(../assets/ac-buystrip/shipping/icon_large.svg); }
-#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: url(../assets/ac-buystrip/thirdparty_retail/icon_large.svg); }
-.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail { --buystrip-item-background-image: url(../assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg); }
-#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail { --buystrip-item-background-image: url(../assets/ac-buystrip/thirdparty_retail/icon_large.svg); }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-appletvplus { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-asa { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-bag { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-call { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-engraving { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-financing { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-giftwrap { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-help { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-homekit { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-learning { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-personal_setup { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-retail { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-shipping { --buystrip-item-background-image: none; }
+#ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail { background-image: var(--buystrip-item-background-image); background-size: 100% 56px; --buystrip-item-background-image: none; }
+.ac-globalfooter-dark #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail, #ac-globalfooter.ac-globalfooter-dark .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail { --buystrip-item-background-image: none; }
+#ac-globalfooter.ac-gf-buystrip-light .ac-gf-buystrip-info-column .ac-gf-buystrip-info-icon-thirdparty_retail { --buystrip-item-background-image: none; }
 #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-title, #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-copy, #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-caption, #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-caption-secondary, #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-cta { margin: 0px; }
 #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-title { font-size: 19px; line-height: 1.21053; font-weight: 600; letter-spacing: 0.012em; font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--buystrip-text-color); margin-top: 0.525em; }
 #ac-globalfooter .ac-gf-buystrip-info-column .ac-gf-buystrip-info-copy { color: var(--buystrip-text-color); display: block; margin-top: 0.4em; }
@@ -1594,7 +1594,7 @@ ac-globalfooter-dark #ac-globalfooter { --gf-focus-color-alt: var(--sk-focus-col
   #ac-globalfooter .ac-gf-breadcrumbs { border-bottom: 1px solid var(--footer-section-border-color); }
 }
 #ac-globalfooter .ac-gf-breadcrumbs-home { position: absolute; inset-inline-start: 0px; z-index: 2; top: 17px; }
-#ac-globalfooter .ac-gf-breadcrumbs-home-icon { width: 14px; height: 18px; display: block; position: relative; z-index: 2; color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0.72); mask-image: url("../assets/ac-footer/breadcrumbs/apple/icon_large.svg"); }
+#ac-globalfooter .ac-gf-breadcrumbs-home-icon { width: 14px; height: 18px; display: block; position: relative; z-index: 2; color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0.72); /* mask-image: url("../assets/ac-footer/breadcrumbs/apple/icon_large.svg"); */ }
 .ac-globalfooter-dark #ac-globalfooter .ac-gf-breadcrumbs-home-icon, #ac-globalfooter.ac-globalfooter-dark .ac-gf-breadcrumbs-home-icon { background-color: rgba(255, 255, 255, 0.8); }
 #ac-globalfooter.theme-light .ac-gf-breadcrumbs-home-icon, #ac-globalfooter.ac-gf-light .ac-gf-breadcrumbs-home-icon { background-color: rgba(0, 0, 0, 0.72); }
 #ac-globalfooter .ac-gf-breadcrumbs-home:hover { text-decoration: none; }
@@ -1608,7 +1608,7 @@ ac-globalfooter-dark #ac-globalfooter { --gf-focus-color-alt: var(--sk-focus-col
 #ac-globalfooter .ac-gf-breadcrumbs-list { max-height: 9999px; padding-inline-start: 25px; text-align: start; list-style: none; }
 #ac-globalfooter .ac-gf-breadcrumbs-item { margin-inline-end: 7px; padding: 3px 4px 3px 0px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #ac-globalfooter:not([dir="rtl"]) .ac-gf-breadcrumbs-item { float: left; }
-#ac-globalfooter .ac-gf-breadcrumbs-item::before { content: ""; display: inline-block; vertical-align: middle; margin-top: -1px; width: 6px; height: 11px; margin-inline-end: 11px; background-color: rgba(0, 0, 0, 0.48); mask-image: url("../assets/ac-footer/breadcrumbs/separator/icon_large.svg"); }
+#ac-globalfooter .ac-gf-breadcrumbs-item::before { content: ""; display: inline-block; vertical-align: middle; margin-top: -1px; width: 6px; height: 11px; margin-inline-end: 11px; background-color: rgba(0, 0, 0, 0.48); /* mask-image: url("../assets/ac-footer/breadcrumbs/separator/icon_large.svg"); */ }
 .ac-globalfooter-dark #ac-globalfooter .ac-gf-breadcrumbs-item::before, #ac-globalfooter.ac-globalfooter-dark .ac-gf-breadcrumbs-item::before { background-color: rgba(255, 255, 255, 0.4); }
 #ac-globalfooter.theme-light .ac-gf-breadcrumbs-item::before, #ac-globalfooter.ac-gf-light .ac-gf-breadcrumbs-item::before { background-color: rgba(0, 0, 0, 0.48); }
 #ac-globalfooter .ac-gf-directory { font-size: 12px; line-height: 1.33337; font-weight: 400; letter-spacing: -0.01em; font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif; display: flex; flex-wrap: nowrap; padding-top: 20px; }
@@ -2180,9 +2180,9 @@ ac-globalfooter-dark #ac-globalfooter { --gf-focus-color-alt: var(--sk-focus-col
   #ac-localnav .ac-ln-menucta-chevron [data-chevron-icon] polyline { stroke-width: 1.2px; }
 }
 #ac-localnav .ac-ln-menucta-chevron:hover { opacity: 1; }
-#ac-localnav.no-js .ac-ln-menucta-chevron::before { content: ""; position: absolute; display: block; transform: translate(0px, 6px); width: 16px; height: 9px; background-color: var(--localnav-menucta-color); mask-image: url("../assets/ac-localnav/chevron/chevron-medium.svg"); }
+#ac-localnav.no-js .ac-ln-menucta-chevron::before { content: ""; position: absolute; display: block; transform: translate(0px, 6px); width: 16px; height: 9px; background-color: var(--localnav-menucta-color); /* mask-image: url("../assets/ac-localnav/chevron/chevron-medium.svg"); */ }
 @media (max-width: 833px) {
-  #ac-localnav.no-js .ac-ln-menucta-chevron::before { mask-image: url("../assets/ac-localnav/chevron/chevron-small.svg"); }
+  #ac-localnav.no-js .ac-ln-menucta-chevron::before { /* mask-image: url("../assets/ac-localnav/chevron/chevron-small.svg"); */ }
 }
 #ac-localnav .ac-ln-menucta-anchor { display: none; position: absolute; top: 0px; left: 0px; width: 1px; height: 1px; z-index: 10; }
 @media (max-width: 833px) {
@@ -10432,3 +10432,69 @@ html[dir="rtl"] .controls-social-tray { direction: rtl; }
 #__plasmo-loading__ .svg-elem-2 { animation: 1.47s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s infinite normal both running plasmo-loading-animate-svg-fill; }
 #__plasmo-loading__ .svg-elem-3 { animation: 1.47s cubic-bezier(0.47, 0, 0.745, 0.715) 1s infinite normal both running plasmo-loading-animate-svg-fill; }
 #__plasmo-loading__ .hidden { display: none; }
+
+/* Snow Animation */
+.snow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  color: white;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
+  user-select: none;
+  pointer-events: none;
+  animation: snowfall linear infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-100vh) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  5% {
+    opacity: var(--opacity, 1);
+  }
+  50% {
+    transform: translateY(50vh) translateX(calc(var(--drift) * 0.5)) rotate(180deg);
+  }
+  95% {
+    opacity: var(--opacity, 1);
+  }
+  100% {
+    transform: translateY(100vh) translateX(var(--drift)) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* Different snowflake sizes and speeds - faster for storm */
+.snowflake-small {
+  font-size: 0.7em;
+  animation-duration: 3s;
+  animation-delay: var(--delay);
+  filter: blur(0.2px);
+}
+
+.snowflake-medium {
+  font-size: 1em;
+  animation-duration: 5s;
+  animation-delay: var(--delay);
+  filter: blur(0.1px);
+}
+
+.snowflake-large {
+  font-size: 1.4em;
+  animation-duration: 7s;
+  animation-delay: var(--delay);
+  filter: blur(0px);
+}
